@@ -4,7 +4,7 @@ Starter code for lab monitor problems. Last updated Winter '21. Adapted from htt
 
 Problem statements: https://grader2.eecs.umich.edu/eecs482/homework/monitors.html
 
-Piazza lab thread: https://piazza.com/class/kisg7ylx49d1xc?cid=45
+Piazza lab thread (with link to recording of walkthrough): https://piazza.com/class/kisg7ylx49d1xc?cid=45
 
 What's in here:
 - `barrier/barrier.cpp` (single-use barrier, compile with `make`)
