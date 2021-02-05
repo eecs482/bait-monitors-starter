@@ -31,7 +31,7 @@ reuse: $(LIBTHREAD) $(EXEC2).cpp
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(EXEC2).cpp -o $(EXEC2)
 
 clean:
-	rm $(EXEC)
+	rm $(EXEC) $(EXEC2)
 
 .PHONY: clean
 
