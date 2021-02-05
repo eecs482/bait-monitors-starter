@@ -54,7 +54,6 @@ barrier::barrier(int number_of_threads) {
 
 bool barrier::wait() {
 	// TODO: Implement
-	cout << "barrier::wait()" << endl;
 	return false;
 }
 
@@ -78,7 +77,6 @@ void runner_ready(void * i)
 }
 
 void launch_threads(void *) {
-	cout << "Hello world!" << endl;
 	for (int iter = 0; iter < 3; ++iter)
 	{
 		vector<thread*> threads;
